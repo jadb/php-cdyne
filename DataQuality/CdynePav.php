@@ -1,5 +1,5 @@
 <?php
-include '../Cdyne.php';
+include dirname(dirname(__FILE__)) . '/Cdyne.php';
 /**
  * Wrapper class for CDYNE's Postal Address Verification (v3).
  *
