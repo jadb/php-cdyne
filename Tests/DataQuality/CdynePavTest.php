@@ -102,6 +102,7 @@ class CdynePavTest extends PHPUnit_Framework_TestCase {
    * @covers CdynePav::__call()
    * @group cdyne
    * @group data_quality
+   * @group api
    */
   public function testGetZipCodesForCityAndState() {
     $this->skipTestWithNoKey();
@@ -114,6 +115,7 @@ class CdynePavTest extends PHPUnit_Framework_TestCase {
    * @covers CdynePav::__call()
    * @group cdyne
    * @group data_quality
+   * @group api
    */
   public function testGetCongressionalDistrictByZip() {
     $this->skipTestWithNoKey();
@@ -126,6 +128,7 @@ class CdynePavTest extends PHPUnit_Framework_TestCase {
    * @covers CdynePav::verifyAddress()
    * @group cdyne
    * @group data_quality
+   * @group api
    */
   public function testVerifyAddress() {
     $this->skipTestWithNoKey();
