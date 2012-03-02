@@ -59,7 +59,6 @@ class CdyneTest extends PHPUnit_Framework_TestCase {
   /**
    * Tests correct instance of class.
    *
-   * @covers Cdyne::__construct()
    * @group cdyne
    */
   public function testInstanceOf() {
@@ -68,7 +67,6 @@ class CdyneTest extends PHPUnit_Framework_TestCase {
   /**
    * Tests .
    *
-   * @covers Cdyne::isPost()
    * @group cdyne
    */
   public function testIsPost() {
@@ -78,7 +76,6 @@ class CdyneTest extends PHPUnit_Framework_TestCase {
   /**
    * Tests URL for GET operations are generated correctly.
    *
-   * @covers Cdyne::_buildUrl()
    * @group cdyne
    */
   public function testBuildUrlGet() {
@@ -89,7 +86,6 @@ class CdyneTest extends PHPUnit_Framework_TestCase {
   /**
    * Tests URL for POST operations are generated correctly.
    *
-   * @covers Cdyne::_buildUrl()
    * @group cdyne
    */
   public function testBuildUrlPost() {
@@ -100,7 +96,6 @@ class CdyneTest extends PHPUnit_Framework_TestCase {
   /**
    * undocumented function
    *
-   * @covers Cdyne::_checkFields()
    * @group cdyne
    */
   public function testCheckFields() {
@@ -122,7 +117,6 @@ class CdyneTest extends PHPUnit_Framework_TestCase {
   /**
    * undocumented function
    *
-   * @covers Cdyne::_decodeResponse()
    * @group cdyne
    */
   public function testDecodeResponse() {
@@ -187,7 +181,6 @@ class CdyneTest extends PHPUnit_Framework_TestCase {
   /**
    * undocumented function
    *
-   * @covers Cdyne::_mapData()
    * @group cdyne
    */
   public function testMapData() {

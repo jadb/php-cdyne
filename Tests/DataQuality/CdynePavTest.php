@@ -53,7 +53,6 @@ class CdynePavTest extends PHPUnit_Framework_TestCase {
   /**
    * Tests correct instance of class.
    *
-   * @covers CdynePav::__construct()
    * @group cdyne
    * @group data_quality
    */
@@ -63,7 +62,6 @@ class CdynePavTest extends PHPUnit_Framework_TestCase {
   /**
    * Tests correct exception thrown when calling an undefined service operation.
    *
-   * @covers CdynePav::__call()
    * @group cdyne
    * @group data_quality
    * @expectedException CdyneException
@@ -75,7 +73,6 @@ class CdynePavTest extends PHPUnit_Framework_TestCase {
   /**
    * Tests correct exception thrown when calling an operation with no $data.
    *
-   * @covers CdynePav::__call()
    * @group cdyne
    * @group data_quality
    * @expectedException CdyneException
@@ -87,7 +84,6 @@ class CdynePavTest extends PHPUnit_Framework_TestCase {
   /**
    * Tests correct exception thrown when calling an operation with no $data.
    *
-   * @covers CdynePav::__call()
    * @group cdyne
    * @group data_quality
    * @expectedException CdyneException
@@ -99,7 +95,6 @@ class CdynePavTest extends PHPUnit_Framework_TestCase {
   /**
    * Tests correct zip codes are returned.
    *
-   * @covers CdynePav::__call()
    * @group cdyne
    * @group data_quality
    * @group api
@@ -112,7 +107,6 @@ class CdynePavTest extends PHPUnit_Framework_TestCase {
   /**
    * Tests correct zip codes are returned.
    *
-   * @covers CdynePav::__call()
    * @group cdyne
    * @group data_quality
    * @group api
@@ -125,7 +119,6 @@ class CdynePavTest extends PHPUnit_Framework_TestCase {
   /**
    * Tests `CdynePav::verifyAddress()`.
    *
-   * @covers CdynePav::verifyAddress()
    * @group cdyne
    * @group data_quality
    * @group api
@@ -197,7 +190,6 @@ class CdynePavTest extends PHPUnit_Framework_TestCase {
   /**
    * Tests conversion of $args into a valid $data array according to the $operation being called.
    *
-   * @covers CdynePav::_argsToData()
    * @group cdyne
    * @group data_quality
    */
