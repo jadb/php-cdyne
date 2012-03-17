@@ -1,4 +1,5 @@
 <?php
+if (!class_exists('Cdyne')) {
 /**
  * Cdyne services base class.
  *
@@ -123,6 +124,8 @@ class Cdyne {
     return $data;
   }
 }
+}
+if (!class_exists('CdyneException')) {
 /**
  * Cdyne Exception.
  *
@@ -130,3 +133,4 @@ class Cdyne {
  * @author Jad Bitar
  */
 class CdyneException extends Exception {}
+}
